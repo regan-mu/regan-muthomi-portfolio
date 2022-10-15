@@ -16,7 +16,7 @@ import git from "./assets/git.png"
 import github from "./assets/github.png"
 import livePrev from "./assets/open.png"
 import cart from "./assets/cart.png"
-import weather from "./assets/weather.png"
+import motorverse from "./assets/motorverse.png"
 import todo from "./assets/todo.png"
 import cv from "./assets/cv-gen.png"
 import keep from "./assets/keep.png"
@@ -48,7 +48,7 @@ const liveLink = document.querySelectorAll(".live-img");
 
 //Projects
 const cartImage = document.querySelector(".cart-img");
-const weatherImage = document.querySelector(".weather-img");
+const motorverseImage = document.querySelector(".motorverse-img");
 const todoImage = document.querySelector(".todo-img");
 const cvImage = document.querySelector(".cv-img");
 const keepImg = document.querySelector(".keep-img");
@@ -65,7 +65,7 @@ const loaderGif = document.querySelector(".gif-loader");
 const images = () => {
     //Projects
     cartImage.src=cart;
-    weatherImage.src=weather;
+    motorverseImage.src=motorverse;
     todoImage.src=todo;
     cvImage.src=cv;
     keepImg.src=keep;
